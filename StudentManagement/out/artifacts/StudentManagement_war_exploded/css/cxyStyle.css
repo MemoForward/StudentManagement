@@ -1,0 +1,30 @@
+body{
+    padding-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.title{
+    text-align: center;
+}
+
+div.tableID{
+    text-align: center;
+    border: #761c19 2px solid;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+}
+
+div.editID{
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+table.editTable {
+    width: 100%;
+    padding: 5px;
+    border-collapse: collapse;
+}

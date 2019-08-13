@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<c3p0-config>
+    <default-config>
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/student_00</property>
+        <property name="user">root</property>
+        <property name="password">123</property>
+<!--        连接池用完后等待，超时则抛异常-->
+        <property name="checkoutTimeout">30000</property>
+<!--        每30秒检测连接池中的空闲连接-->
+        <property name="idleConnectionTestPeriod">30</property>
+<!--        初始化连接个数-->
+        <property name="initialPoolSize">10</property>
+<!--        最大空闲时间，大于30秒则释放连接-->
+        <property name="maxIdleTime">30</property>
+        <property name="maxPoolSize">50</property>
+        <property name="minPoolSize">10</property>
+<!--        预缓存语句总计不超过200条-->
+        <property name="maxStatements">200</property>
+    </default-config>
+</c3p0-config>
