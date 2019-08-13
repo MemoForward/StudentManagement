@@ -1,6 +1,7 @@
 # StudentManagement
 学生管理系统（JSP + Servlet + MySql）
-具体请移步我的博客：
+
+**具体请移步我的博客：**
 
 #实现功能
 - 学生列表的增删改查
