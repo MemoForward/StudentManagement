@@ -17,6 +17,7 @@
 - 在project structure -- facets 中create Artifacts //右下有警告，或者参考 https://blog.csdn.net/tj867182298/article/details/83308483 手动创建
 - 在project structure -- Artifacts 中将右侧的lib添加到左侧中（点右下的fix一般就可）
 - 在Edit congigure中将Artifacts通过tomcat发布// edit configure和Add confiure的位置是一样的，这一步不配置你会看到tomcat上有个红叉
+- 创建自己的学生数据库 //我的博客中有sql语句，复制即可
 - 修改c3p0-config.xml中配置
 - 启动tomcat
 
